@@ -209,8 +209,8 @@ def start(update: Update, context: CallbackContext):
                              text="🚑 Support Group",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
-                             text="🔔 Updates Channel",
-                             url="https://t.me/OnePunchUpdates")
+                             text="🔔 Log Channel",
+                             url="Https://t.me/KOROSENSEILOG")
                      ],
                      [
                          InlineKeyboardButton(
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
+                             url="https://github.com/Koro-Sensei-0/Sensei")
                      ]]))
     else:
         update.effective_message.reply_text(
